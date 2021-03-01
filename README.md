@@ -1,4 +1,7 @@
-This Facebook Messenger Clone App is interactive and all the data or, messages are persistent and saving in Firebase Firestore Database!
+This Facebook Messenger Clone App is interactive and all the data are stored in firebase cloud firestore realtime database!
+
+**Demo:** https://facebook-messenger-clone-f4da7.web.app/
+(Feel free to say hello!)
 
 ## Available Scripts
 

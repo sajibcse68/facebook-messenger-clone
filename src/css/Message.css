@@ -1,0 +1,19 @@
+.msg-cont {
+  display: flex;
+  flex-direction: column;
+  overflow-y: scroll;
+  padding: 0 20px;
+  height: calc(100vh - 200px);
+}
+.msg-cont p {
+  padding: 7px 12px 8px 12px;
+  border-radius: 18px;
+}
+.msg-left {
+  align-self: flex-start;
+  background-color: #18191a;
+}
+.msg-right {
+  align-self: flex-end;
+  background-color: rgb(19 207 19);
+}

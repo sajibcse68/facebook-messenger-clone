@@ -19,6 +19,7 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  margin-top: 50px;
 }
 .email-input {
   flex-basis: 100%;
@@ -35,8 +36,4 @@ body {
 
 .email-input input:focus {
   outline: none;
-}
-
-.show-msg {
-  
 }
