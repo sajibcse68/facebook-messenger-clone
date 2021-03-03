@@ -1,10 +1,12 @@
 import React, { useState, useEffect, useRef } from 'react';
 import firebase from 'firebase';
-import logo from './logo.svg';
 import { Form, Button } from 'react-bootstrap';
+import SVG from 'react-inlinesvg';
 import Message from './components/Message';
 import db from './config/firebase';
+import messengerIcon from './assets/images/messenger.svg';
 import './App.css';
+
 
 function App() {
   const [username, setUsername] = useState('');
@@ -60,6 +62,7 @@ function App() {
 
   return (
     <div className="App">
+      <SVG width="70" height="70" src={messengerIcon}></SVG>
       <div className="title">{`Sajib: Hey welcome '${username}' 🚀!`}</div>
       <div className="msg-cont">
         <div ref={msgConRef} className="msg-cont">
